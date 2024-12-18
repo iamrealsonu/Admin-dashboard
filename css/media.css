@@ -5,7 +5,7 @@
  @media screen and (max-width:1200px) {
     .container {
       width: 94%;
-      grid-template-columns: 7rem auto 14rem;
+      grid-template-columns: 9rem auto 14rem;
     }
   
     aside .sidebar h3 {
@@ -22,6 +22,8 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
     }
+
+    
   }
   
   /* media query for phones */
@@ -56,7 +58,7 @@
   
     aside .logo h2 {
       display: inline;
-    }
+      margin-left: 15px;   }
   
     aside .sidebar h3 {
       display: inline;
